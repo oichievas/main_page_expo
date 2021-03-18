@@ -1,0 +1,64 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo h4 {
+  padding-left: 12px;
+}
+
+.menu {
+  display: flex;
+
+  align-items: center;
+  background-color: skyblue;
+}
+.menu li {
+  padding: 14px;
+  font-size: 14px;
+  position: relative;
+}
+
+li:hover {
+  background-color: skyblue;
+  color: #fff;
+}
+
+li ul {
+  position: absolute;
+  top: 110%;
+  left: 0px;
+  background-color: #318ce7;
+  color: black;
+  overflow: hidden;
+  max-height: 0px;
+  transition: 1s;
+}
+li:hover > ul {
+  max-height: 500px;
+}
+.lang {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* --------map_youtube--------- */
+.map_youtube {
+  margin: 50px auto;
+}
+/* --------map_youtube--------- */
+.media {
+  display: flex;
+  justify-content: center;
+}
+.block {
+  padding: 10px;
+}
+
+hr {
+  border: 1px solid black;
+}
