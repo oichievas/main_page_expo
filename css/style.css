@@ -119,6 +119,18 @@ hr {
 
 /* -----Slider--------- */
 
+.expo_link {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.expo_link div img {
+  width: 200px;
+}
+.links_departaments .menu {
+  display: none;
+}
 /* -------Media--------- */
 @media screen and (max-width: 768px) {
   .box {
@@ -141,6 +153,9 @@ hr {
     width: 100%;
     margin-bottom: 20px;
   }
+  .links_departaments .menu {
+    display: block;
+  }
 }
 @media screen and (max-width: 576px) {
   .box {
@@ -150,7 +165,7 @@ hr {
     font-size: 14px;
   }
   .menu {
-    display: none;
+    /* display: none; */
   }
   .burger_menu {
     display: block;
@@ -160,6 +175,9 @@ hr {
   .col_3 {
     width: 100%;
     margin-bottom: 20px;
+  }
+  .links_departaments .menu {
+    display: block;
   }
 }
 /* -------Media--------- */
