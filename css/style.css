@@ -151,7 +151,6 @@ img {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  position: relative;
 }
 
 .sim-slider-element {
@@ -207,7 +206,6 @@ div.sim-slider-dots {
   z-index: 3;
   text-align: center;
 }
-
 span.sim-dot {
   width: 10px;
   height: 10px;
@@ -218,56 +216,3 @@ span.sim-dot {
   border-radius: 5px;
   cursor: pointer;
 }
-
-
-
-/* -------Media--------- */
-@media screen and (max-width: 768px) {
-  .box {
-    width: 33.33%;
-  }
-  .logo_description {
-    font-size: 14px;
-  }
-  .menu {
-    display: none;
-  }
-  .burger_menu {
-    display: block;
-    position: absolute;
-    right: 0;
-  }
-  .col_1,
-  .col_2,
-  .col_3 {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .links_departaments .menu {
-    display: block;
-  }
-}
-@media screen and (max-width: 576px) {
-  .box {
-    width: 50%;
-  }
-  .logo_description {
-    font-size: 14px;
-  }
-  .menu {
-    /* display: none; */
-  }
-  .burger_menu {
-    display: block;
-  }
-  .col_1,
-  .col_2,
-  .col_3 {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .links_departaments .menu {
-    display: block;
-  }
-}
-/* -------Media--------- */
