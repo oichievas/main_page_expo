@@ -309,3 +309,8 @@ span.sim-dot {
   padding: 0 30px;
 }
 /* --------Sponsors end--------- */
+@media (max-width: 1380px) {
+  .containerContent {
+    left: 100px;
+  }
+}
