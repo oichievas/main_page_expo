@@ -2,7 +2,7 @@ img {
   width: 100%;
 }
 Header {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-image: url("../img/image1.jpg");
   background-repeat: no-repeat;
@@ -118,7 +118,7 @@ text-align: center;
 }
 .vr {
   min-width: 630px;
-  height: 280px;
+  height: 282px;
 background-image: url("../img/vr1.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -134,8 +134,8 @@ img {
 }
 
 .sim-slider {
-  max-width: 1000px;
-  min-width: 320px;
+  max-width: 1130px;
+  min-width: 300px;
   margin: 20px auto;
   padding: 30px 50px;
   border: 1px solid #ccd;
@@ -216,3 +216,96 @@ span.sim-dot {
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* ------youtube------- */
+/* ------youtube------- */
+
+.youtube {
+  padding: 20px 0;
+}
+
+.youtube_wrap {
+  display: flex;
+  flex-flow: wrap;
+}
+.left_youtube,
+.right_youtube {
+  width: 50%;
+}
+.left_youtube iframe{
+  width: 600px;
+}
+
+.right_youtube .youtube_wrap {
+  padding-left: 10%;
+}
+
+.right_youtube .youtube_wrap .youtube_block .youtube_inblock iframe {
+  width: 100%;
+}
+
+.youtube_block {
+  width: 50%;
+}
+
+/* .youtube_block .right_padding {
+  padding-right: 10px;
+} */
+
+.youtube_block .padding_bottom {
+  padding-bottom: 20px;
+}
+
+.youtube_inblock {
+  width: 250px;
+}
+
+/* ------youtube end------- */
+/* ------youtube end------- */
+
+/* ------about_kyrgyzstan------- */
+
+.about_kyrgyzstan {
+  padding: 20px 0;
+}
+
+.about_wrap {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: -10px;
+}
+
+.about_block {
+  padding-right: 10px;
+  width: 20%;
+}
+
+.about_block img {
+  width: 100%;
+}
+/* ------about_kyrgyzstan end------- */
+
+/* --------Sponsors--------- */
+
+.wrap_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line {
+  border-bottom: 3px solid #000;
+  width: 100%;
+}
+
+.line_title {
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 71px;
+  padding: 0 30px;
+}
+/* --------Sponsors end--------- */
